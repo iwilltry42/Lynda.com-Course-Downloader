@@ -136,11 +136,6 @@ def main():
     print("\n")
     print(">>> Done")
 
-    # write all the found URLs to two different files
-    # file = open("C:\\Users\\thklein\\Desktop\\Video-URLs.txt", "w")
-    # file.write("Playlist-URLs:\n" + str(playlistURLs) + "\nVideo-URLs:\n" + str(video_urls))
-    # file.close()
-
     # download video
     for video in video_urls:
         if video is not None:
